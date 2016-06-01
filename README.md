@@ -28,15 +28,15 @@ vagrant up
 
 ### Clonare il repository git con i task ansible
 
-**Eseguire dalla directory `IdP3-vagrant`**
+**Eseguire dalla directory IdP3-vagrant**
 
-Entrare nella macchina virtuale
+Accedere alla macchina virtuale:
+
 ```
 vagrant ssh
 ```
 
-Una volta ottenuto il prompt della macchina virtuale
-eseguire i seguenti comandi:
+Una volta acceduti e ottenuto il prompt, eseguire:
 
 ```
 sudo su -
