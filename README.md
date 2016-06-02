@@ -78,9 +78,9 @@ riconosciuta, quindi vanno accettati manualmente.
   CONTENUTO: `Virtualhost idp.example.org configurato correttamente`
 * LINK: https://sp.example.org
   CONTENUTO: `Virtualhost sp.example.org configurato correttamente`
-* LINK: https://idp.example.org
-  CONTENUTO: una pagina di errore di Apache Tomcat con contenuto `HTTP Status 404 - /idp`
 * LINK: https://idp.example.org/idp
+  CONTENUTO: una pagina di errore di Apache Tomcat con contenuto `HTTP Status 404 - /idp`
+* LINK: https://sp.example.org/secure
   CONTENUTO: una pagina dal titolo `shibsp::ConfigurationException`
 
 Se tutti i contenuti sono conformi... COMPLIMENTI! Il provisioning e la
