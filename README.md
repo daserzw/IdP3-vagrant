@@ -70,7 +70,9 @@ echo "10.0.4.2	sp.example.org" >> hosts
 **Da eseguire sul computer su cui girano Virtualbox e vagrant**
 
 Aprire un browser, seguire i link che seguono e verificare se il
-contenuto e' conforme a quanto riportato:
+contenuto e' conforme a quanto riportato --- **ATTENZIONE** i certificati
+dei server sono firmati da una CA non riconsciuta, quindi vanno
+accettati manualmente.
 
 * LINK: https://idp.example.org
   CONTENUTO: `Virtualhost idp.example.org configurato correttamente`
@@ -85,6 +87,7 @@ Se tutti i contenuti sono conformi... COMPLIMENTI! Il provisioning e la
 preparazione dell'ambiente iniziale per il corso sono andati a buon fine.
 
 
-Se qualcosa e' andato storto segnalaci il problema tramite le issues di github:
+Se qualcosa e' andato storto segnalaci il problema rispondendo alla mail
+di contatto o direttamente tramite le issues di github:
   https://github.com/daserzw/IdP3-vagrant/issues
  
