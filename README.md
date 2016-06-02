@@ -70,9 +70,9 @@ echo "10.0.4.2	sp.example.org" >> hosts
 **Da eseguire sul computer su cui girano Virtualbox e vagrant**
 
 Aprire un browser, seguire i link che seguono e verificare se il
-contenuto e' conforme a quanto riportato --- **ATTENZIONE** i certificati
-dei server sono firmati da una CA non riconsciuta, quindi vanno
-accettati manualmente.
+contenuto e' conforme a quanto riportato.
+**ATTENZIONE:** i certificati dei server sono firmati da una CA non
+riconosciuta, quindi vanno accettati manualmente.
 
 * LINK: https://idp.example.org
   CONTENUTO: `Virtualhost idp.example.org configurato correttamente`
