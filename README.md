@@ -1,4 +1,9 @@
-# Corso IDP NUOVI
+# IDEM DAY 2016: Corso IDP NUOVI
+
+Questo repository contiene un Vagrantfile per il Corso IDP NUOVI tenuto
+in occasione degli IDEM DAY 2016:
+
+https://www.idem.garr.it/idemday2016/separa-programma/6-giugno-corso-idp-nuovi
 
 ## Requisiti
 
