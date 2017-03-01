@@ -11,7 +11,7 @@ apt-get -y install git
 SCRIPT
 
 Vagrant.configure(2) do |config|
-  config.vm.box = 'ubuntu/trusty32'
+  config.vm.box = 'ubuntu/xenial32'
   config.vm.hostname = 'idp'
   config.vm.provision 'shell', inline: $install_ansible
   # Patch for https://github.com/mitchellh/vagrant/issues/6793
