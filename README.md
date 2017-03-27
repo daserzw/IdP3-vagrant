@@ -5,6 +5,7 @@ in occasione degli IDEM DAY 2016 e per il nuovo corso di installazione
 Shibboleth 3.3 che si terrà al WS GARR 2017:
 
 https://www.idem.garr.it/idemday2016/separa-programma/6-giugno-corso-idp-nuovi
+
 http://www.eventi.garr.it/it/ws17/programma/programma-esteso/corso-installazione-e-configurazione-di-shibboleth-idp-v-3-3#
 
 ## Requisiti
