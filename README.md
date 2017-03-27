@@ -1,9 +1,11 @@
-# IDEM DAY 2016: Corso IDP NUOVI
+# CORSO: INSTALLAZIONE E CONFIGURAZIONE DI SHIBBOLETH IDP V.3.3
 
 Questo repository contiene un Vagrantfile per il Corso IDP NUOVI tenuto
-in occasione degli IDEM DAY 2016:
+in occasione degli IDEM DAY 2016 e per il nuovo corso di installazione
+Shibboleth 3.3 che si terrà al WS GARR 2017:
 
 https://www.idem.garr.it/idemday2016/separa-programma/6-giugno-corso-idp-nuovi
+http://www.eventi.garr.it/it/ws17/programma/programma-esteso/corso-installazione-e-configurazione-di-shibboleth-idp-v-3-3#
 
 ## Requisiti
 
@@ -16,6 +18,10 @@ Le istruzioni che seguono servono a:
 - effettuare il provisioning della macchina virtuale con vagrant;
 - installare e configurare i pacchetti necessari all'ambiente
   iniziale del corso tramite task ansible;
+  
+Nota: per certi portatili HP è stato necessario attivare a livello di BIOS l'opzione "Virtualization VT-x".
+Prendere in considerazione questa soluzione qualora si incontrassero errori di accesso agli host virtuali
+nei passi successivi.
 
 ### Provisioning: macchina virtuale
 
